@@ -15,7 +15,7 @@ pipeline {
         stage('Manual Docker Build') {
             steps {
                 script {
-                    bat "docker build -t ${DOCKER_IMAGE} ."
+                    sh "docker build -t ${DOCKER_IMAGE} ."
                 }
             }
         }
