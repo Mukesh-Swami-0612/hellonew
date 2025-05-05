@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/Mukesh-Swami-0612/hello.git'
+                git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/Mukesh-Swami-0612/hellonew.git'
             }
         }
 
